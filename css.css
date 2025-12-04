@@ -1,0 +1,141 @@
+.Вход{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background: url(images/ajy.png);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    overflow: hidden;
+}
+.ggg{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#h1{
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(112, 111, 111, 0.836);
+    margin-bottom: 60px;
+}
+label{
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input{
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+button{
+    background: rgb(45, 126, 231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/FON.png);
+    background-size: cover;
+}
+header {
+    background-color: rgb(63, 62, 62);
+}
+.foto{
+    display: flex;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.forma{
+    display: flex;
+    gap: 5px;
+}
+h1{
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    margin-top: 20px;
+    background-color: rgb(99, 99, 99);
+}
+.Foote{
+    display: flex;
+    gap: 30px;
+}
+#p{
+    text-decoration: none;
+    align-items: center;
+    margin: -15px;
+    color: #000000;
+    margin-left: 50px;
+}
+footer{
+    margin-bottom: -17px;
+}
+#i{
+    margin-left: 50px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.line{
+    border: none;
+    border: 1px solid rgb(146, 146, 146);
+    width: 1400px;
+}
+@media screen and (max-width: 992px) {
+    body{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    
+}
